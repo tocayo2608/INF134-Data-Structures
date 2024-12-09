@@ -1,0 +1,27 @@
+CONCEPTO DE DIRECCIONES DE MEMORIA
+
+Cuando trabajamos con memoria, los datos son almacenados en nuestra memoria RAM y la forma en que nosotros podemos acceder a ella es mediante *PUNTEROS*
+que *APUNTAN* a una *DIRECCIÓN* de memoria
+
+Imagina un puntero como si este se tratase de una flecha que hacia donde apunta corresponde a una ubicación en concreto de lo que es la memoria RAM.
+
+Ejemplos de direcciones de memoria en C y C++:
+    0x7ffd5e8b4a20
+    0x55b7e3f2a7a0
+    0x5632c4a1b260
+    0x7ffee3b2c580
+    0x5632c4a1b4f0
+    (nil)  
+    0x0    
+ 
+PUNTEROS
+
+Una variable es de tipo puntero cuando en su definición se utiliza ' * '. Ejemplo:
+    int * nombre_variable_de_tipo_puntero;
+        Aquí se definió una variable de tipo puntero, si deseamos saber a que dirección de memoria está apuntando podemos saberlo utilizando un ' & '. 
+
+Para trabajar con memoria debemos decir de manera explicita cuanta memoria queremos utilizar. Para esto utilizaremos el comando ' new '
+Ejemplo: 
+    #Si queremos trabajar con arreglos, cuando usamos ' int array[5]; ' Estamos "reservando" espacio suficiente para cinco "espacios" en memoria con capacidad 
+    de almacenar únicamente enteros.
+     
